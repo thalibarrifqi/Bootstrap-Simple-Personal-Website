@@ -1,0 +1,260 @@
+/* navbar */
+
+.navbar-brand{
+    font-family: Helvetica;
+    font-size: 26px;
+    font-weight: 100;
+}
+.navbar-brand span{
+   font-weight: 600;
+}
+
+
+
+/* about */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* header */
+
+@media (max-width: 575.98px) {
+    
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+}
+
+.text .display-4{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 200;
+    font-size: 50px; 
+}
+
+.garis{
+    border-top: 4px solid white;
+    width: 50%;
+    margin-left: 80px;
+    margin-bottom: 600px;
+}
+
+.text .display-4 span{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*gallery*/
+
+
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+   
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 100%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .desc{
+      color: white;
+      font-size: 20px;
+      font-family: 'Century Gothic';
+  }
+
+/*  content */
+
+.display{
+    border-bottom: 4px solid white;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.display2{
+    border-bottom: 4px solid white;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.display3{
+    border-bottom: 4px solid white;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.display4{
+    border-bottom: 4px solid white;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.card-title{
+    color: black;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.card-title1{
+    color: black;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+.card-text{
+    color: white;
+    font-family: Helvetica;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.card-text1{
+    color: black;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.card-text2{
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.findme .row{
+    text-align: center;
+    margin-left: 180px;
+}
+
+/* animasi */
+.music .card{
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: .5s;
+}
+
+.music .card.show{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.sport .card{
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: .5s;
+}
+
+.sport .card.show{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.tech .card{
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: .5s;
+}
+
+.tech .card.show{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.garis{
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: .2s;
+}
+.text{
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: .2s;
+}
+.text.show, .garis.show{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+/* footer */
+
+.footer p{
+    margin-top: 250px;
+    color: black;
+}
+
+.footer1 p{
+    margin-top: 1000px;
+    color: black;
+}
+/* desktop version */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link{
+        color: white !important;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .garis{
+        border-top: 4px solid white;
+        width: 18%;
+        margin-left: 450px;
+        margin-right: 400px;
+        margin-bottom: 600px;
+    }
+}
